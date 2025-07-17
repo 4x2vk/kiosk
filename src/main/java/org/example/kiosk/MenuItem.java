@@ -11,6 +11,7 @@ public class MenuItem {
         this.price = price;
         this.description = description;
     }
+    @Override
     public String toString() {
         return String.format(" %-14s | W %.1f | %s", name, price, description);
     }
