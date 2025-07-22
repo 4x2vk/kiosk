@@ -28,7 +28,7 @@ public class Kiosk {
                     while (true) {
                         System.out.println("[ " + selectedMenu.getName() + " MENU ]");
                         for (int i = 0; i < items.size(); i++) {
-                            System.out.println((i + 1) + ". " + items.get(i));
+                            System.out.println((i + 1) + "." + items.get(i));
                         }
                         System.out.println("0. 돌아가기");
 
@@ -38,7 +38,7 @@ public class Kiosk {
                         }
                         if (itemChoice > 0 && itemChoice <= items.size()) {
                             MenuItem selectedItem = items.get(itemChoice - 1);
-                            System.out.println("선택한 항목: " + selectedItem);
+                            System.out.println("선택한 항목: " + selectedItem.getName());
                         } else {
                             System.out.println("잘못된 입력입니다");
                         }
