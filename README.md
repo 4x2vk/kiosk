@@ -5,7 +5,7 @@ Users can browse categorized menu items, view descriptions, add items to a cart,
 
 ---
 
-## ✨ Features
+## Features
 
 - Categorized menus: Burgers, Drinks, Desserts
 - View item name, price, and description
@@ -16,7 +16,7 @@ Users can browse categorized menu items, view descriptions, add items to a cart,
 
 ---
 
-## 💻 Requirements
+## Requirements
 
 - Java Development Kit (JDK) **17**
 - IDE for Java development
