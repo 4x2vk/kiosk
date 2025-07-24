@@ -4,14 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Menu {
-    private final String name;
-    private final List<MenuItem> menuItems;
+    private final String name; // 메뉴 이름
+    private final List<MenuItem> menuItems; // 해당 메뉴에 있는 메뉴 아이템 리스트
 
+    // 메뉴 이름 초기화, 아이템 리스트 생성
     public Menu(String name) {
         this.name = name;
         this.menuItems = new ArrayList<>();
     }
 
+    // 메뉴에 아이템 추가
     public void add(MenuItem menuItem) {
         menuItems.add(menuItem);
     }
@@ -25,7 +27,7 @@ public class Menu {
     }
 
     public static List<Menu> getMenus() {
-        List<Menu> category = new ArrayList<>();
+        List<Menu> category = new ArrayList<>(); // 전체 메뉴 카테고리 리스트 생성
 
         Menu burgerMenu = new Menu("BURGERS");
         burgerMenu.add(new MenuItem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
